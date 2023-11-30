@@ -25,11 +25,25 @@ const Todo6 = () => {
 
   return (
     <>
-      <Link to={`/`}>
-        <button>Home</button>
-      </Link>
       <Link to={`/form`}>
-        <button>Form</button>
+        <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
+          Form
+        </button>
+      </Link>
+      <Link to={`/todo`}>
+        <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
+          Todo
+        </button>
+      </Link>
+      <Link to={`/api`}>
+        <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
+          Api
+        </button>
+      </Link>
+      <Link to={`/`}>
+        <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
+          Home
+        </button>
       </Link>
       <h1>Todo List 06</h1>
       <div className="upper">
