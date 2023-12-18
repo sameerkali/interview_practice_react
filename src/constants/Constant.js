@@ -1,4 +1,4 @@
-export const data = [
+export const imgData = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHPJsyhELz339Ho-88dEBp-OWt-Y9TelL_eg&usqp=CAU",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCqJ8Fry6kpYRWwLS5E23ymI8YiK88WU8iA&usqp=CAU",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqMtZzp_yfbEwAC9jXRJtwCOrtlxGFx3ikzQ&usqp=CAU",
