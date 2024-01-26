@@ -6,6 +6,8 @@ import Form5 from "./Form5";
 // import Todo from "./Todo";
 import Todo6 from "./Todo6";
 import Corousel from "./Image_corousel/Corousel";
+import Query from "./FetchingDataFromReactQueay/Query";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/api" element={<ApiCall2 />} />
           <Route path="/form" element={<Form5 />} />
           <Route path="/todo" element={<Todo6 />} />
+          <Route path="/query" element={<Query />} />
         </Routes>
       </BrowserRouter>
     </>
