@@ -5,3 +5,5 @@ export const imgData = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-UGdr4DcwcGem35SMlF3Tndbx9LJHSrfyA&usqp=CAU",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jmVM-IcJtmrkDbLB2mveH_5syD13dkHk0enRAWcwA1IOOGFdmtSqyHAxrBxGgeq_h1U&usqp=CAU"
 ];
+
+export const BaseUrl = "https://divinezone.azurewebsites.net"
