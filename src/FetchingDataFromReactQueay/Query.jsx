@@ -11,7 +11,8 @@ const MantrasList = () => {
 
   return (
     <div>
-    <Link to={`/form`}>
+      <div>
+        <Link to={`/form`}>
           <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
             Form
           </button>
@@ -36,6 +37,7 @@ const MantrasList = () => {
             query
           </button>
         </Link>
+      </div>
       <h1 className="text-3xl">Mantras List</h1>
       <ul>
         {data.map((mantra) => (
@@ -51,7 +53,7 @@ const MantrasList = () => {
             <div>
               <h2>{mantra.title}</h2>
               <p>Artist: {mantra.artist}</p>
-              <p>Album: {mantra.album}</p>
+              <p>Album: {mantra.album || "Bhajan"}</p>
             </div>
             <audio controls className="mt-2">
               <source src={mantra.url} type="audio/mpeg" />
