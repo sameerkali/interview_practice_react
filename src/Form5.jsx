@@ -29,7 +29,12 @@ const Form5 = () => {
             Api
           </button>
         </Link>
-        <Link to={``}>
+        <Link to={`/query`}>
+          <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
+            query
+          </button>
+        </Link> 
+        <Link to={`/`}>
           <button className="pr-3 pl-3 pt-1 pb-1 bg-cyan-300 text-white m-2">
             Home
           </button>
