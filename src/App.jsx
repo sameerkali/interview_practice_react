@@ -7,6 +7,8 @@ import Form5 from "./Form5";
 import Todo6 from "./Todo6";
 import Corousel from "./Image_corousel/Corousel";
 import Query from "./FetchingDataFromReactQueay/Query";
+import Parent from "./Lifting_the_state_up/Parent";
+import Child from "./Lifting_the_state_up/Child";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path="/form" element={<Form5 />} />
           <Route path="/todo" element={<Todo6 />} />
           <Route path="/query" element={<Query />} />
+          <Route path="/parent" element={<Parent />} />
+          <Route path="/child" element={<Child />} />
         </Routes>
       </BrowserRouter>
     </>
