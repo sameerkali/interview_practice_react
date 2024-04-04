@@ -9,6 +9,7 @@ import Corousel from "./Image_corousel/Corousel";
 import Query from "./FetchingDataFromReactQueay/Query";
 import Parent from "./Lifting_the_state_up/Parent";
 import Child from "./Lifting_the_state_up/Child";
+import Login from "./Components/Login";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/query" element={<Query />} />
           <Route path="/parent" element={<Parent />} />
           <Route path="/child" element={<Child />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
