@@ -10,6 +10,8 @@ import Query from "./FetchingDataFromReactQueay/Query";
 import Parent from "./Lifting_the_state_up/Parent";
 import Child from "./Lifting_the_state_up/Child";
 import Login from "./Components/Login";
+import ParentComponent from "./liftingStateUp/parent";
+import ChildComponent from "./liftingStateUp/Child";
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/parent" element={<Parent />} />
           <Route path="/child" element={<Child />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/p" element={<ParentComponent />} />
+          <Route path="/c" element={<ChildComponent />} />
         </Routes>
       </BrowserRouter>
     </>
