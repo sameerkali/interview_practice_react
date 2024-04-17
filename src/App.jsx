@@ -12,6 +12,7 @@ import Child from "./Lifting_the_state_up/Child";
 import Login from "./Components/Login";
 import ParentComponent from "./liftingStateUp/parent";
 import ChildComponent from "./liftingStateUp/Child";
+import ContributionGraph from "./GitHub_Contribution_graph/Graph";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/p" element={<ParentComponent />} />
           <Route path="/c" element={<ChildComponent />} />
+          <Route path="/g" element={<ContributionGraph />} />
         </Routes>
       </BrowserRouter>
     </>
