@@ -28,8 +28,8 @@ const ContributionGraph = () => {
         startDate={startDate}
         endDate={endDate}
         values={data}
-        onMouseOver={(value) => setActivity(value)}
-        onMouseLeave={()=>setActivity(null)}
+        onMouseOver={(event, value) => setActivity(value)}
+        onMouseLeave={(event, value) => setActivity(null)}
         titleForValue={(value) => {
           return value ? `${value.date}: ${value.count} contributions` : null;
         }}
