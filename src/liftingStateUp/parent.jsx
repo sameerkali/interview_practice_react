@@ -6,7 +6,7 @@ const ParentComponent = () => {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value);
+    setInputValue(e);
   };
 
   return (
