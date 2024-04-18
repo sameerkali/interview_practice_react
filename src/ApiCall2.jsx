@@ -3,6 +3,26 @@ import { Link } from "react-router-dom";
 
 
 export default function ApiCall2() {
+  const [a, b] = useState([])
+
+useEffect(() =>{
+  newApiCall2()
+},[])
+
+const newApiCall = () => {
+  let url = "https://jsonplaceholder.typicode.com/posts"
+  fetch(url)
+  .then(response => response.json())
+  .then(json => console.log(json))
+}
+
+const newApiCall2 = async () => {
+  let url = "https://jsonplaceholder.typicode.com/posts"
+  let data = await fetch(url)
+  let finalData = await data.json()
+  console.log(finalData)
+}
+
 
     const [Data, setData] = useState([])
     useEffect(() => {
@@ -13,6 +33,9 @@ export default function ApiCall2() {
         const dataa = await response.json()
         setData(dataa)
     }
+
+
+
   return (
     <>
     <Link to={`/form`}>
