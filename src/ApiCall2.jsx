@@ -18,9 +18,23 @@ const newApiCall = () => {
 
 const newApiCall2 = async () => {
   let url = "https://jsonplaceholder.typicode.com/posts"
-  let data = await fetch(url)
-  let finalData = await data.json()
-  console.log(finalData)
+  try {
+    const data = await fetch(url);
+    const ans = await data.json();
+    console.log("======",ans)
+  } catch (error) {
+    console.log(error.message)
+  }
+}
+const newApiCall3 = async () => {
+  let url = "https://jsonplaceholder.typicode.com/posts"
+  try {
+    const data = await fetch(url);
+    const ans = await data.json();
+    console.log("======",ans)
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
 
@@ -65,3 +79,18 @@ const newApiCall2 = async () => {
     </>
   )
 }
+
+
+
+
+
+/*
+try {
+  let url = "https://jsonplaceholder.typicode.com/posts"
+  let data = await fetch(url)
+  let finalData = await data.json()
+  console.log(finalData)
+} catch (error) {
+  console.log(error.message)
+}
+*/
