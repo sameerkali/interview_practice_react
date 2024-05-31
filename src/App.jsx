@@ -13,6 +13,8 @@ import Login from "./Components/Login";
 import ParentComponent from "./liftingStateUp/parent";
 import ChildComponent from "./liftingStateUp/Child";
 import ContributionGraph from "./GitHub_Contribution_graph/Graph";
+import Index from "./Hooks/Index";
+import ApiCall3 from "./ApiCall3";
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Corousel/>} />
           <Route path="/api" element={<ApiCall2 />} />
+          <Route path="/api2" element={<ApiCall3 />} />
           <Route path="/form" element={<Form5 />} />
           <Route path="/todo" element={<Todo6 />} />
           <Route path="/query" element={<Query />} />
@@ -31,6 +34,7 @@ function App() {
           <Route path="/p" element={<ParentComponent />} />
           <Route path="/c" element={<ChildComponent />} />
           <Route path="/g" element={<ContributionGraph />} />
+          <Route path="/hook" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </>
