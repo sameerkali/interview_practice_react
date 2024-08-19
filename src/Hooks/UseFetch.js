@@ -19,7 +19,7 @@ const UseFetch = url => {
     getData();
   }, []);
 
-  return { data, loading };
+  return [ data, loading ];
 };
 
 export default UseFetch;
