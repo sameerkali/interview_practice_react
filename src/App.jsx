@@ -15,6 +15,7 @@ import ChildComponent from "./liftingStateUp/Child";
 import ContributionGraph from "./GitHub_Contribution_graph/Graph";
 import Index from "./Hooks/Index";
 import ApiCall3 from "./ApiCall3";
+import Todolatest from "./Todolatest";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/c" element={<ChildComponent />} />
           <Route path="/g" element={<ContributionGraph />} />
           <Route path="/hook" element={<Index />} />
+          <Route path="/tl" element={<Todolatest />} />
         </Routes>
       </BrowserRouter>
     </>
