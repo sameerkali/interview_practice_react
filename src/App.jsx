@@ -17,6 +17,7 @@ import Index from "./Hooks/Index";
 import ApiCall3 from "./ApiCall3";
 import Todolatest from "./Todolatest";
 import CustomHookTesting from "./CustomHookTesting";
+import Gun from "./Gun";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/hook" element={<Index />} />
           <Route path="/tl" element={<Todolatest />} />
           <Route path="/cht" element={<CustomHookTesting />} />
+          <Route path="/gun" element={<Gun />} />
         </Routes>
       </BrowserRouter>
     </>
