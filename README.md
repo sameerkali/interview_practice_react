@@ -1,1 +1,1 @@
-# This was a private repository, but I believe it should help me, so why not help others?  
+# This was a private repository, but I believe it should help me, so why not help others?Omit --global to set the identity only in this repository.  
